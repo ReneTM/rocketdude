@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$decal"  		1
+	"$decalscale"	0.25	
+	"$basetexture"	"decals/rocketdude/rd_logo_glow_big"
+	"$translucent"	1
+	"$vertexcolor"	1
+	"$vertexalpha"	1
+}

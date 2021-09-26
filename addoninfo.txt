@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+     addonSteamAppID         "550"
+     addontitle              "RocketDude (DEV-Files)"
+     addonversion            ""
+     addontagline            ""
+     addonauthor             "ReneTM"
+     addonURL0               ""
+     addonDescription        ""
+}
+ 

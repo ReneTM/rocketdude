@@ -1,0 +1,24 @@
+"rocketDude"
+{
+	"base"				"coop"
+	"maxplayers"		"4"
+	"hasdifficulty"		"1"
+
+	"DisplayTitle"		"RocketDude"
+	"ShortDescription"	"Grenade launchers, mushrooms and special abilities"
+	"Description"		"RocketDude is a coop mutation that allows up to 4 players, but without any survivor bots. The player begins with 200 max health and is equipped with a grenade launcher and either a random sharp melee weapon or a magnum. The grenade launcher is able to catapult any physics props and players far beyond the stratosphere. Just take care not to send a car flying towards you."
+
+	"Image"				"vgui/blog/rocketdude"
+	"Author"			"ReneTM"
+
+	convar
+	{
+		"survivor_limit" 4
+		"nb_update_frequency" 0.1
+		"sv_infected_riot_control_tonfa_probability" 0
+		"sv_infected_ceda_vomitjar_probability" 0
+		"sv_vote_creation_timer" 8
+		"sv_vote_plr_map_limit" 128
+		"director_afk_timeout" 99999
+	}
+}
