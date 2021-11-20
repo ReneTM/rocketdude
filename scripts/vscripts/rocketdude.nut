@@ -6,7 +6,7 @@
 
 Msg("Activating RocketDude By ReneTM \n")
 
-::rocketdude_version	<- "v1.7.7 build: 17:07:07 Feb 07 2021"
+::rocketdude_version	<- "v1.7.7 build: 00:11:11 Nov 21 2021"
 ::mapName				<- Director.GetMapName().tolower()
 ::survivorSet			<- Director.GetSurvivorSet()
 local grenadeData = {}
@@ -335,8 +335,9 @@ function setPlayersHealth(){
 // Since players are able to receive throwables from mushrooms we need to check if any survivor is standing right on a mushroom
 // ----------------------------------------------------------------------------------------------------------------------------
 
+local projectiles = [ "vomitjar_projectile", "molotov_projectile", "pipe_bomb_projectile" ]
+
 function projectileListener(){
-	local projectiles = [ "vomitjar_projectile", "molotov_projectile", "pipe_bomb_projectile" ]
 	foreach(projectile in projectiles){
 		local throwable = null
 		while(throwable = Entities.FindByClassname(throwable, projectile)){
